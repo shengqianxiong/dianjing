@@ -1,0 +1,360 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/match",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "赛事详情",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "视频列表",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/video/videoDetails",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "视频详情",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/game",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的比赛",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+	
+		
+		
+		{
+			"path": "pages/member/ping",
+			"style": {
+				"navigationBarTextStyle": "black",
+
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/account",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "系统设置",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/gamenumber",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "关联游戏账号",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/gamebinding",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "绑定游戏账号",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/userstatus",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "个人资料",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/my/userphone",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "绑定手机号",
+				"navigationBarBackgroundColor": "#000000",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/public/loginphone",
+			"style": {
+				"navigationBarTitleText": "手机号登录",
+				"app-plus": {
+					"titleNView": true,
+					"bounce": "none",
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/bind",
+			"style": {
+				"navigationBarTitleText": "换绑手机号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/pwd",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/public/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus": {
+					"titleNView": true,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		},
+		{
+			"path": "pages/member/cash",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#000000",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/member/webview",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"scrollIndicator": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/download",
+			"style": {
+				"navigationBarTitleText": "省钱兄下载",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator": "none"
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/member/cashList",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},
+		{
+			"path": "pages/member/zhifubao",
+			"style": {
+				"navigationBarTitleText": "提现账号",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": true
+				}
+			}
+		},
+		{
+			"path": "pages/member/mimi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/register",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"scrollIndicator": "none"
+				},
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/member/xieyi",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#e10a07",
+						"offset": "50px"
+					},
+					"titleNView": {
+						"buttons": [{
+							"text": "",
+							"float": "left"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "省钱兄电竞",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#aaaaaa",
+		"selectedColor": "#f2ad44",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/index/index.png",
+				"selectedIconPath": "static/img/index/index-act.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/img/footer/my.png",
+				"selectedIconPath": "static/img/footer/my-act.png",
+				"text": "我的"
+			}
+		]
+	}
+}
